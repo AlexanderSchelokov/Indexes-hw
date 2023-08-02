@@ -4,7 +4,8 @@
 
 **Ответ**
 
-![Снимок35](https://github.com/AlexanderSchelokov/Indexes-hw/assets/121572590/510fd94a-65be-41b0-94ff-481a1608e58e)
+![Снимок38](https://github.com/AlexanderSchelokov/Indexes-hw/assets/121572590/9ed9caf7-fecc-4eb0-aee8-953c30c9061a)
+
 
 ***
 
@@ -34,6 +35,9 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 
 
 ![Снимок36](https://github.com/AlexanderSchelokov/Indexes-hw/assets/121572590/e483c5c2-4188-4cae-a7eb-43ec89890ef2)
+
+![Снимок37](https://github.com/AlexanderSchelokov/Indexes-hw/assets/121572590/3c12981c-ed70-4038-8bc2-4d1538960e05)
+
 
 ```
 SELECT CONCAT(c.last_name, ' ', c.first_name), SUM(p.amount)
